@@ -267,6 +267,73 @@ h1 {
   text-align: center;
 }
 
+/* Estilos para la sección de gráfico de inversiones */
+.investments-chart {
+  margin: 24px 0;
+  text-align: center;
+}
+
+.investments-chart h2 {
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.34rem;
+}
+
+.chart-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Estilos para la sección de testimonios */
+.testimonials {
+  margin: 24px 0;
+  text-align: center;
+}
+
+.testimonials h2 {
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.34rem;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.testimonial-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.testimonial-image:hover {
+  transform: translateY(-4px);
+}
+
+/* Responsividad para testimonios */
+@media (max-width: 480px) {
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 760px) {
+  .testimonials-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 .footer p {
   font-size: 0.82rem;
 }

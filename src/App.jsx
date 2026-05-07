@@ -3,8 +3,7 @@ import './App.css'
 const profile = {
   name: 'Cash',
   handle: '@cashdani_',
-  avatar:
-    'https://ugc.production.linktr.ee/4fe8c3c6-dce7-445e-9e29-d3340364f52c_IMG-1338.png?io=true&size=avatar-v3_0',
+  avatar: '/perfil.jpeg',
   bio: 'Accionista en bolsa +38% profit. Educacion financiera y bursatil.',
 }
 
@@ -95,6 +94,23 @@ function App() {
           <p>
             Una ruta simple para empezar desde cero, entender la bolsa y tomar decisiones con mas criterio.
           </p>
+        </section>
+
+        {/* Sección de gráfico de inversiones */}
+        <section className="investments-chart" aria-labelledby="investments-chart-title">
+          <h2 id="investments-chart-title">Historial de Inversiones</h2>
+          <img src="/grafico.jpeg" alt="Gráfico del rendimiento de inversiones" className="chart-image" />
+        </section>
+
+        {/* Sección de testimonios */}
+        <section className="testimonials" aria-labelledby="testimonials-title">
+          <h2 id="testimonials-title">Testimonios de Clientes</h2>
+          <div className="testimonials-grid">
+            <img src="/testimonio1.jpeg" alt="Testimonio de cliente 1" className="testimonial-image" />
+            <img src="/testimonio2.jpeg" alt="Testimonio de cliente 2" className="testimonial-image" />
+            <img src="/testimonio3.jpeg" alt="Testimonio de cliente 3" className="testimonial-image" />
+            <img src="/testimonio4.jpeg" alt="Testimonio de cliente 4" className="testimonial-image" />
+          </div>
         </section>
       </section>
       <footer className="footer" aria-label="Credito del sitio">
