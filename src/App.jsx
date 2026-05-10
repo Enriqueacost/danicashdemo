@@ -18,7 +18,7 @@ const links = [
   {
     label: 'TikTok',
     text: 'Contenido corto sobre bolsa e inversiones',
-    href: 'https://www.tiktok.com/@bydanicash?_r=1&_t=ZS-96EKiEFqmym',
+    href: 'https://www.tiktok.com/@bycashdani?_r=1&_t=zs-94atcciy2v8',
     tag: 'Videos',
   },
   {
